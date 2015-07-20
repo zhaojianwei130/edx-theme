@@ -1,26 +1,27 @@
-Overview
+概述
 ========
 定制主题方法
-This directory stores a default theme for an Open edX instance.
+这个目录商店开放实例的默认主题。
 
-We've organized the tree to mimic the directory structure of the edX
-codebase so that it's easy to tell where the files will end up upon
-deploy. We'll use a special settings file to set the template and
-staticfiles paths properly to point to these files.
+我们组织树模拟的目录结构
+代码库,这样很容易告诉文件最终将在的地方
+部署。我们将使用一个特殊的设置文件设置模板和
+static  files路径正确指向这些文件。
+ 
 
 ![Alt text](/default_theme_screenshot.jpg?raw=true "Open edX Default Theme Screenshot")
 
-Theme Authoring
+主题创作
 ===============
-To customize your theme:
-- Fork this repository.
-- Clone it into the theme directory next to your edx-platform directory and rename the theme directory to your new theme's name.
-- Upload your own image assets.
-- Edit the .scss file in static/sass/ and rename the file with your theme's name.
-- Edit the lms.envs.json file in edx-platform and set 'USE_CUSTOM_THEME' to true, and 'THEME_NAME' to your theme's name.
+定制你的主题:
+- 叉这个存储库。
+- 克隆到的主题目录在你edx-platform目录,重命名主题目录到您的新主题的名称。
+- 上传自己的图片资产。
+- 编辑。scss文件静态/ sass /和重命名文件和你的主题的名称。
+-编辑lms.envs。在edx-platform json文件,设置“USE_CUSTOM_THEME”真,和“THEME_NAME”主题的名字。
 
 
-License
+ 
 =======
 
 The code in this repo is licensed under the Apache 2.0 License.
