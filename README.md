@@ -1,5 +1,6 @@
 Overview
 ========
+定制主题方法
 This directory stores a default theme for an Open edX instance.
 
 We've organized the tree to mimic the directory structure of the edX
